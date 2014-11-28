@@ -3,7 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="prose"
+export ZSH_THEME="steeef"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
@@ -16,7 +16,7 @@ export DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(osx git ruby gem node npm heroku cap bundler brew cake rails3 redis-cli zsh-syntax-highlighting)
+plugins=(osx git ruby gem node npm heroku cap bundler brew cake rails redis-cli zsh-syntax-highlighting aws)
 
 source $ZSH/oh-my-zsh.sh
 
